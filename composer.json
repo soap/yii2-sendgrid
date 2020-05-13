@@ -22,7 +22,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "soap\\sengrid\\": "src"
+            "soap\\sendgrid\\": "src"
         }
     }
 }
