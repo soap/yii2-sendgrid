@@ -1,0 +1,28 @@
+{
+    "name": "soap/yii2-sendgrid",
+    "description": "Yii2 based mailer via SendGrid API",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Prasit Gebsaap",
+            "email": "prasit.gebsaap@gmail.com"
+        }
+    ],
+    "license": "GPLv3",
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.14",
+        "sendgrid/sendgrid": "~7.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "soap\\sengrid\\": "src"
+        }
+    }
+}
